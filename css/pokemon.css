@@ -1,0 +1,102 @@
+body{
+    padding-bottom:  20px;
+    color: #5a5a5a;
+    background-color: #ddd;
+}
+.navbar-wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+.caraousel{
+    height: 550px;
+    margin-bottom: 50px;
+}
+
+.carousel .item{
+    height: 550px;
+    background-color: #ddd;
+}
+.navbar-inverse{
+    background-color: rgba(50,50,50,0.7);
+}
+.navbar-wrapper .navbar .container{
+    width: auto;
+}
+.carousel-inner > .item > img{
+    position: absolute;
+    height: 650px;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+}
+.dropdown-menu{
+    width: 225px;
+    background-color: rgba(50,50,50,0.5);
+}
+.social-buttons{
+    margin: 5px auto;
+    padding-left: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color: #3b599d;
+    margin-right: 15px
+}
+
+.btn-tw{
+    color: #fff;
+    background-color: #55acee;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color: #405ebc;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color: #405ebc;
+}
+.log{
+    color: bisque;
+    padding-left: 10px;
+}
+.navbar-wrapper > .container{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.container .col-lg-4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.team{
+    padding: 10px;
+}
+.team p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.divider{
+    margin: 10px;
+    color: maroon;
+}
+.content{
+    padding: 10px;
+    text-align: center;
+/*    margin-bottom: 10px;*/
+}
+.content-image{
+    background-size: contain;
+}
+.footer{
+    margin: 10px 20px;
+}
+@media(max-width:698px)
+{
+    .navbar-inverse{
+        background-color: black;
+    }
+}
