@@ -3,6 +3,11 @@ body{
     color: #5a5a5a;
     background-color: #ddd;
 }
+.navbar{
+    margin: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+}
 .navbar-wrapper{
     position: absolute;
     top: 0;
