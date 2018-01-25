@@ -16,6 +16,9 @@ body{
     left: 0;
     z-index: 20;
 }
+.locations li a{
+    color: antiquewhite;
+}
 .caraousel{
     height: 550px;
     margin-bottom: 50px;
